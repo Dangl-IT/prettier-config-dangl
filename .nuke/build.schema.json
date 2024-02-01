@@ -9,10 +9,7 @@
         "Configuration": {
           "type": "string",
           "description": "Configuration to build - Default is 'Debug' (local) or 'Release' (server)",
-          "enum": [
-            "Debug",
-            "Release"
-          ]
+          "enum": ["Debug", "Release"]
         },
         "Continue": {
           "type": "boolean",
@@ -71,12 +68,7 @@
           "description": "List of targets to be skipped. Empty list skips all dependencies",
           "items": {
             "type": "string",
-            "enum": [
-              "BuildLibrary",
-              "Publish",
-              "Restore",
-              "TestLibrary"
-            ]
+            "enum": ["BuildLibrary", "Publish", "Restore", "TestLibrary"]
           }
         },
         "Target": {
@@ -84,23 +76,13 @@
           "description": "List of targets to be invoked. Default is '{default_target}'",
           "items": {
             "type": "string",
-            "enum": [
-              "BuildLibrary",
-              "Publish",
-              "Restore",
-              "TestLibrary"
-            ]
+            "enum": ["BuildLibrary", "Publish", "Restore", "TestLibrary"]
           }
         },
         "Verbosity": {
           "type": "string",
           "description": "Logging verbosity during build execution. Default is 'Normal'",
-          "enum": [
-            "Minimal",
-            "Normal",
-            "Quiet",
-            "Verbose"
-          ]
+          "enum": ["Minimal", "Normal", "Quiet", "Verbose"]
         }
       }
     }

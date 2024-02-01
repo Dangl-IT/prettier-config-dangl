@@ -1,18 +1,18 @@
 module.exports = {
-   parser: '@typescript-eslint/parser',
-   plugins: [
-     '@typescript-eslint',
-     'angular',
-     'prettier'
-   ],
-   extends: [
-     'plugin:@typescript-eslint/recommended',
-     'plugin:angular/recommended',
-     'prettier',
-     'prettier/@typescript-eslint',
-     'prettier/angular'
-   ],
-   rules: {
-     'prettier/prettier': 'error'
-   }
- };
+  parser: '@typescript-eslint/parser',
+  plugins: [
+    '@typescript-eslint',
+    'angular',
+    'prettier'
+  ],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@angular-eslint/recommended",
+    "plugin:@angular-eslint/template/process-inline-templates",
+    "plugin:prettier/recommended"
+  ],
+  rules: {
+    'prettier/prettier': 'error',
+  },
+};
