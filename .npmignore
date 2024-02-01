@@ -1,0 +1,7 @@
+.github/
+build/
+.nuke/
+build.cmd
+build.sh
+build.ps1
+Gitversion.yml

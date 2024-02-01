@@ -1,7 +1,7 @@
 {
-  "name": "prettier-config-dangl",
+  "name": "@dangl/prettier-config-dangl",
   "version": "1.0.0",
-  "description": "Prettier Config",
+  "description": "Prettier Config for Dangl IT projects",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
