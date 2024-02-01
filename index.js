@@ -1,1 +1,3 @@
-module.exports = require('./.prettierrc');
+'use strict';
+
+module.exports = require('./lib/prettier.config');
