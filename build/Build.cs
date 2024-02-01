@@ -35,7 +35,7 @@ class Build : NukeBuild
         .DependsOn(Restore)
         .Executes(() =>
         {
-            Npm($"version {GitVersion.NuGetVersion}", RootDirectory);
+            Npm($"version {GitVersion.NuGetVersion}  --no-git-tag-version", RootDirectory);
         });
 
     Target TestLibrary => _ => _
