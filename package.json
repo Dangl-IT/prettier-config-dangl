@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dangl-IT/prettier-config-dangl.git"
+    "url": "git+https://github.com/Dangl-IT/prettier-config-dangl.git"
   },
   "homepage": "https://github.com/Dangl-IT/prettier-config-dangl",
   "devDependencies": {
