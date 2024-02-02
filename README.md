@@ -1,7 +1,7 @@
 
 # prettier-config-dangl
 
-[Prettier](https://prettier.io/) configuration used in Dangl projects.
+[Prettier](https://prettier.io/) configuration used in [**Dangl IT GmbH**](https://www.dangl-it.com/) projects.
 
 
 ## Installation
