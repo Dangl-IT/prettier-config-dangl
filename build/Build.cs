@@ -37,7 +37,7 @@ class Build : NukeBuild
         .OnlyWhenDynamic(() => IsOnBranch("main") || IsOnBranch("develop"))
         .Executes(() =>
         {
-            var npmTag = IsOnBranch("master")
+            var npmTag = IsOnBranch("main")
                 ? "latest"
                 : "next";
             Npm($"publish --access public --tag={npmTag}", RootDirectory);
