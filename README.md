@@ -11,7 +11,7 @@ Install as a dev dependency (along with [Prettier](https://prettier.io/)) via [n
 
 
 ```bash
-npm install --save-dev @dangl/prettier-config-dangl prettier@latest @trivago/prettier-plugin-sort-imports
+npm install --save-dev @dangl/prettier-config-dangl
 ```
     
 ## Usage
